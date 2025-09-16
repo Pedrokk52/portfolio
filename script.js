@@ -1,4 +1,4 @@
-// Mensagem especial nos projetos
+
 document.getElementById('btnProjetos').addEventListener('click', () => {
   const mensagem = document.getElementById('mensagem-projetos');
   mensagem.style.opacity = 0;
@@ -8,7 +8,7 @@ document.getElementById('btnProjetos').addEventListener('click', () => {
   }, 350);
 });
 
-// Formulário de contato (simulação)
+
 document.getElementById('formContato').addEventListener('submit', function(e) {
   e.preventDefault();
   const nome = this.nome.value.trim();
